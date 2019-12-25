@@ -25,6 +25,11 @@
 
 <body>
 <div class="scrollig_header_section">
+	<div class="mob_img">
+         <div class="container">
+              <img src="images/wedgwood-lady-intro-sign.png">
+         </div>
+    </div>
 <div class="nav-bar">
  <div class="container">
    <div class="col-md-2">
