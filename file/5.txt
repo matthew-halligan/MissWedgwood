@@ -1,0 +1,6 @@
+$(function() {
+
+var _$_ae34=[".slideGroup","find",".guruSlide",":animated","is","active","removeClass","addClass","100%","-100%","block","css","eq","none","animate","length","<button type=\"button\" class=\"guruSlide-btn\">&bull;</button>",".guruSlide-buttons","appendTo","click","on","push","each",".guruSlider"];$(_$_ae34[23])[_$_ae34[22]](function(){var c=$(this);var a=c[_$_ae34[1]](_$_ae34[0]);var b=c[_$_ae34[1]](_$_ae34[2]);var e=[];var f=0;var h;function g(l){var k,m;d();if(a[_$_ae34[4]](_$_ae34[3])||f===l){return};e[f][_$_ae34[6]](_$_ae34[5]);e[l][_$_ae34[7]](_$_ae34[5]);if(l>f){m=_$_ae34[8];k=_$_ae34[9]}else {m=_$_ae34[9];k=_$_ae34[8]};b[_$_ae34[12]](l)[_$_ae34[11]]({left:m,display:_$_ae34[10]});a[_$_ae34[14]]({left:k},function(){b[_$_ae34[12]](f)[_$_ae34[11]]({display:_$_ae34[13]});b[_$_ae34[12]](l)[_$_ae34[11]]({left:0});a[_$_ae34[11]]({left:0});f=l})}function d(){clearTimeout(h);h=setTimeout(function(){if(f<(b[_$_ae34[15]]-1)){g(f+1)}else {g(0)}},5000)}$[_$_ae34[22]](b,function(j){var i=$(_$_ae34[16]);if(j===f){i[_$_ae34[7]](_$_ae34[5])};i[_$_ae34[20]](_$_ae34[19],function(){g(j)})[_$_ae34[18]](c[_$_ae34[1]](_$_ae34[17]));e[_$_ae34[21]](i)});d()})
+
+
+})

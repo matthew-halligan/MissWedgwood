@@ -1,0 +1,1021 @@
+html {
+    background: url(../images/Wedgwood-office-dark.png);
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat repeat !important;
+    background-position: center center;
+}
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap&subset=cyrillic,latin-ext');
+
+.container{
+    width: 1170px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;	
+}
+.nav-bar {
+    width: 100%;
+    float: left;
+    margin: 73px 0 0 0;
+    padding: 0;
+}
+.scrollig_header_section {
+    background: url(../images/wedgwood-lady-intro-5.png);
+    background-size: 100% auto !important;
+    -webkit-background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    outline: none;
+    background-position-y: -3px;
+    float: left;
+    width: 100%;
+}
+
+.nav-bar .col-md-2 a {
+    color: rgb(112, 65, 140);
+    margin-top: 0px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+}
+.nav-bar .col-md-2{text-align:center;}
+
+.middle_data{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.mid-img {
+    width: 100%;
+    float: left;
+    margin: 154px 0 0 0;
+    padding: 0;
+}
+.mid-img img {
+    width: 600px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+}
+.two-button {
+    float: none;
+    width: 69%;
+    margin: 0 auto 0;
+    display: table;
+    padding-top: 96px;
+    padding-bottom: 214px;
+}
+.two-button a {
+    margin: 0 auto;
+    display: table;
+}
+a.left {
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(133, 1, 199);
+    font-size: 20px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 10px 5px;
+	 text-decoration: none !important;
+}
+a.right {
+    float: right;
+    width: 46%;
+    text-align: center;
+    color: rgb(133, 1, 199);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px 5px;
+    text-decoration: none !important;
+}
+.content_section {
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 94px;
+}
+.content_section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(21, 21, 21);
+    float: left;
+    width: 100%;
+    margin: 37px 0 55px 0;
+        font-family: 'Poiret One', cursive;
+}
+.content_section .left {
+    width: 49%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.content_section .left img {
+    border: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 2px solid rgba(0,0,0,0.15);
+    box-shadow: 0 4px 3px rgba(0,0,0,0.05), 0 0 2px rgba(0,0,0,0.15);
+    padding: 5px !important;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.05);
+    width: 400px;
+    margin: 0 auto;
+    display: table;
+}
+.content_section .container .right {
+    width: 49%;
+    float: right;
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+.container .right p {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.shipment_section {
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    background: url(../images/purple-map.jpg);
+    padding-top: 40px;
+    padding-bottom: 77px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat repeat !important;
+    background-position: center center;
+}
+.shipment_section .col-md-5 p {
+    color: #fff;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.shipment_section .col-md-5 {
+    margin-top: 27px;
+}
+.shipment_section .col-md-7 img {
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+    max-width: 100%;
+}
+.shipment_section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 38px 0 43px 0;
+        font-family: 'Poiret One', cursive;
+}
+h2.web {
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    padding: 0px 0 43px 0;
+        font-family: 'Poiret One', cursive;
+}
+.toprated_section{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    background: url(../images/ebay-section.png);
+    padding-top: 40px;
+    padding-bottom: 77px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat repeat !important;
+    background-position: center center;
+}
+.toprated_section .col-md-6 img {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.toprated_section .col-md-6 p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.col-md-6.right {
+    margin-top: 23px;
+}
+.toprated_section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 27px;
+    margin-bottom: 37px;
+        font-family: 'Poiret One', cursive;
+}
+.toprated_section .col-md-6 a {
+    color: rgb(133, 1, 199);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none !important;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px 5px;
+    width: 100%;
+    float: left;
+    text-align: center;
+	text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+	    margin-top: 14px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 90px 0;
+    padding-bottom: 0px;
+    background-color: rgb(13, 13, 13);
+}
+footer h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+        font-family: 'Poiret One', cursive;
+}
+footer p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.sd {
+    margin-bottom: 23px;
+}
+
+.col-md-4.img img {
+    float: none;
+    width: 300px;
+    margin: 0 auto;
+    display: table;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.copyright_section {
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.copyright_section p {
+    text-align: center;
+}
+.guruSlider {
+    max-width: 940px;
+    margin: 0px auto 30px auto;
+}
+
+.slideViewer {
+  	max-width:100%;
+    position: relative;
+    overflow: hidden;
+  	height: 0;
+    padding-bottom: 50%;
+}
+
+.slideGroup {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.guruSlide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+.guruSlide img{
+  	width:100%;
+}
+
+.guruSlide:first-child {
+    display: block;
+
+}
+
+.guruSlide-buttons {
+    text-align: center;
+  	display:none
+}
+
+.guruSlide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.guruSlide-btn.active,
+.guruSlide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;
+  	outline: none !important;
+  	box-shadow: none !important;
+}
+.guruSlide-btn{  
+	outline: none !important;
+  	box-shadow: none !important;}
+
+.testimonial {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.testimonial h2{
+    font-family: 'Poiret One', cursive;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 46px 0 9px 0;
+    font-size: 16px;
+}
+.about_text_image{
+    width: 100%;
+    float: left;
+    margin:0;
+    padding:0;
+        background: #fff;
+} 
+.about_text_image img{
+    width: 100%;
+    float: left;
+} 
+.img_content_section {
+    padding-top: 25px;
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 94px;
+}
+.img_content_section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(21, 21, 21);
+    float: left;
+    width: 100%;
+    margin: 37px 0 55px 0;
+        font-family: 'Poiret One', cursive;
+}
+.img_content_section .left {
+    width: 49%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.img_content_section .left img {
+    border-bottom: 2px solid rgba(0,0,0,0.15);
+    box-shadow: 0 4px 3px rgba(0,0,0,0.05), 0 0 2px rgba(0,0,0,0.15);
+    width: 504px;
+    margin: 0 auto;
+    display: table;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.img_content_section .container .right {
+    width: 49%;
+    float: right;
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+.second_content_section .container .left  p{    font-size: 16px;
+    text-align: left;
+    margin-bottom: 22px;}
+
+.second_content_section {
+    padding-top: 25px;
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 94px;
+}
+
+.second_content_section .left {
+    width: 49%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.second_content_section .right img {
+    border-bottom: 2px solid rgba(0,0,0,0.15);
+    box-shadow: 0 4px 3px rgba(0,0,0,0.05), 0 0 2px rgba(0,0,0,0.15);
+    width: 504px;
+    margin: 0 auto;
+    display: table;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.second_content_section .container .right {
+    width: 49%;
+    float: right;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+html.about_page .scrollig_header_section {
+    background: url(../images/about-me.png);
+    padding-top: 40px;
+    padding-bottom: 464px;
+}
+html.gallery_page .scrollig_header_section {
+    background: url(../images/Gallery-Intro.png);
+    padding-top: 40px;
+    padding-bottom: 464px;
+}
+.gallery_text {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding-top: 30px;
+}
+
+.gallery_text h2{
+     width: 100%;
+    float: left; 
+    text-align:center;
+    color:#000;
+    font-size: 33px;
+        font-family: 'Poiret One', cursive;
+}
+.col-md-12.lad {
+    background: #fff;
+    padding: 0;
+    padding-top: 71px;
+}
+
+.col-md-12.lad .col-md-3 img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col-md-12.lad .col-md-3 h2 {
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 24px;
+}
+.col-md-12.lad .col-md-3 img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.col-md-12.lad .col-md-3 a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(133, 1, 199);
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 14px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-decoration: none !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    padding: 10px 20px;
+}
+.col-md-12.lack {
+    background: #fff;
+    padding: 0;
+    padding-top: 71px;
+}
+
+.col-md-12.lack .col-md-3 img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col-md-12.lack .col-md-3 h2 {
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 24px;
+}
+.col-md-12.lack .col-md-3 img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    border: 2px solid rgba(0,0,0,0.15);
+    padding: 5px !important;
+    background: #fff;
+}
+.col-md-12.lack .col-md-3 a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(133, 1, 199);
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 14px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-decoration: none !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    padding: 10px 20px;
+}
+
+
+.two-buttons {
+    float: left;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    padding: 58px 0;
+}
+.two-buttons  a {
+    margin: 0 auto;
+    display: table;
+}
+.two-buttons  a.left {
+    color: rgb(133, 1, 199);
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+	 text-decoration: none !important;
+	 box-shadow: 0 0 25px rgba(0,0,0,0.4), 0 0 15px rgba(255,255,255,0.2), 0 0 3px rgba(255,255,255,0.4);
+	 border-radius: 15px;
+	 padding: 10px 15px;
+	 text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+	 
+}
+.two-buttons  a.right {
+    color: rgb(133, 1, 199);
+    font-weight: 600; 
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+	 text-decoration: none !important;
+	 box-shadow: 0 0 25px rgba(0,0,0,0.4), 0 0 15px rgba(255,255,255,0.2), 0 0 3px rgba(255,255,255,0.4);
+	 border-radius: 15px;
+	 padding: 10px 15px;
+	 text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+}
+.two-buttons  a.left:hover{    box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22), 0 233px 233px 0 rgba(255,255,255,0.12) inset;}
+
+.two-buttons  a.right:hover{    box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22), 0 233px 233px 0 rgba(255,255,255,0.12) inset;}
+
+.two-buttons .container {
+    width: 60%;
+}
+html.contact_page .scrollig_header_section {
+    background: url(../images/contact-me-intro.png);
+    padding-top: 40px;
+    padding-bottom: 464px;
+}
+.contact_section_bottom {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 43px 0 0 0;
+}
+
+.contact_section_bottom h2 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 0;
+}
+.contact-bottom {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 27px 0 50px 0;
+}
+.contact-bottom .left {
+    float: left;
+    width: 47%;
+    margin: 0;
+    padding: 0;
+}
+.contact-bottom .right {
+    float: right;
+    width: 49%;
+    margin: 0;
+    padding: 38px 0 36px 0;
+}
+
+.contact-bottom .right a {
+    color: rgb(133, 1, 199);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-decoration: none !important;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4), 0 0 15px rgba(255,255,255,0.2), 0 0 3px rgba(255,255,255,0.4);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding:10px 5px;
+    text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.contact-bottom .container .right p {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+form .de.elInputWrapper {
+    margin-top: 10px;
+}
+form input.elInput.elInput100.garlic-auto-save {
+    border-radius: 5px !important;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 16px;
+    padding: 12px 18px;
+    outline: none !important;
+    box-shadow: inset 0 1px 2px rgba(130,137,150,0.23), 0 1px 0 rgba(255,255,255,0.95);
+    text-align: left;
+}
+
+form textarea.elInput.elInput100.garlic-auto-save {
+    border-radius: 5px !important;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 16px;
+    padding: 12px 18px 0 18px;
+    outline: none !important;
+    box-shadow: inset 0 1px 2px rgba(130,137,150,0.23), 0 1px 0 rgba(255,255,255,0.95);
+    text-align: left;
+}
+
+form div#tmp_button-60283 input[type="submit"]{
+  color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(133, 1, 199);
+    font-size: 26px;
+    text-decoration: none !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+    padding:10px 5px;  
+        width: 100%;
+}
+form #hen input.elInput.elInput100.garlic-auto-save {
+     background-image: url(../images/name2.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+        background-color: #fff;
+}
+form div#input-97721 input.elInput.elInput100.garlic-auto-save {
+     background-image: url(../images/email2.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+        background-color: #fff;
+}
+form div#input-68587 input.elInput.elInput100.garlic-auto-save {
+     background-image: url(../images/phone2.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+        background-color: #fff;
+}
+.mob_img{display:none;}
+
+.contact-bottom .right a:hover {
+    box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22), 0 233px 233px 0 rgba(255,255,255,0.12);
+}
+.link_footer a i {
+    color: #000;
+    background: #b507ed;
+    padding: 8px 13px;
+    font-size: 22px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+.link_footer a {
+    font-size: 24px;
+    color: #fff;
+}
+/* responsive css */
+
+@media screen and (max-width: 1380px) {
+
+.two-button {
+    padding-top: 96px;
+    padding-bottom: 126px;
+}
+.scrollig_header_section {
+    padding-top: 25px;
+}
+
+}
+@media screen and (max-width: 1240px) {
+
+.scrollig_header_section {
+    padding-top: 14px;
+}
+.two-button {
+    padding-bottom: 79px;
+}
+}
+@media screen and (max-width: 1190px) {
+
+.two-button {
+    padding-top: 37px;
+    padding-bottom: 83px;
+}
+.mid-img {
+    margin: 127px 0 0 0;
+
+}
+
+
+}
+
+@media screen and (max-width: 1090px) {
+
+.two-button {
+    padding-top: 57px;
+    padding-bottom: 77px;
+}
+.mid-img {
+    margin: 94px 0 0 0;
+
+}
+.scrollig_header_section{padding-top:2px;}
+
+}
+
+@media screen and (max-width: 992px) {
+html {
+    background: #fff;
+}
+.nav-bar .col-md-2 {
+    text-align: center;
+    color: rgb(133, 1, 199);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none !important;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.2), 0 0 3px rgba(0,0,0,0.4);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    padding: 10px 25px;
+    text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+        margin: 17px 0 16px 0;
+}
+.col-md-2.md {
+    display: none;
+}
+.nav-bar {
+    margin: 17px 0 0 0;
+    background: #fff;
+}
+.mob_img{display:block;}
+
+
+.mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 188px;
+}
+.middle_data .mid-img {
+    display: none;
+}
+
+.scrollig_header_section {
+    padding-bottom: 0;
+}
+.two-button {
+    padding-bottom: 26px;
+}
+.content_section h2 {
+    font-size: 27px;
+}
+.shipment_section h2 {
+    font-size: 27px;
+}
+.testimonial h2 {
+    font-size: 27px;
+}
+.toprated_section .col-md-6.right {
+    margin-top: 45px;
+    float: left;
+}
+.toprated_section h2 {
+    font-size: 24px;}
+
+.col-md-4.las {
+    margin: 30px 0 0 0;
+}
+.two-button {
+    float: left;
+    width: 100%;
+    margin: 0 auto 0;
+    display: table;
+}
+html.about_page .scrollig_header_section {
+    padding-top: 40px;
+    padding-bottom: 464px;
+    background: inherit;
+    background: url(../images/wedgwood-lady-intro-5.png)!important;
+    background-size: cover!important;
+    background-position: center!important;
+	    padding-bottom: 0;
+}
+html.about_page  .mob_img {
+    display: block;
+    margin-top: 118px;
+}
+
+.img_content_section .left {
+    width: 100%;
+}
+.img_content_section .container .right {
+    width: 100%;
+    float: right;
+    margin: 24px 0 0 0;
+}
+.img_content_section {
+    padding-bottom: 16px;
+}
+.second_content_section .left {
+    width: 100%;
+}
+.second_content_section .container .right {
+    width: 100%;
+}
+.second_content_section {
+    padding-bottom: 34px;
+}
+
+html.contact_page .scrollig_header_section {
+    padding-top: 40px;
+    padding-bottom: 464px;
+    background: inherit;
+    background: url(../images/wedgwood-lady-intro-5.png)!important;
+    background-size: cover!important;
+    background-position: center!important;
+	    padding-bottom: 0;
+}
+html.contact_page  .mob_img {
+    display: block;
+    margin-top: 118px;
+}
+
+html.contact_page .mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+}
+.contact_section_bottom h2 {
+    font-size: 24px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 860px) {
+
+.scrollig_header_section {
+    background-size: cover!important;
+    background-position: center;
+}
+html.about_page .mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 84px;
+}
+
+.mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 274px;
+}
+.middle_data {
+    background: #fff;
+}
+.content_section .left {
+    width: 100%;
+}
+.content_section .left img {
+    width: 600px;
+}
+
+.content_section .container .right {
+    width: 100%;
+    margin: 29px 0 0 0;
+    padding: 0;
+}
+.content_section {
+    padding-bottom: 29px;
+}
+.shipment_section h2 {
+    font-size: 32px;
+    padding: 38px 0 17px 0;
+}
+
+
+}
+@media screen and (max-width: 660px) {
+.content_section h2 {
+    font-size: 21px;
+}
+.content_section .left img {
+    width: 100%;
+}
+.container .right p {
+    font-size: 15px;
+}
+.shipment_section h2 {
+    font-size: 21px;
+}
+.testimonial h2 {
+    font-size: 21px;
+}
+.toprated_section h2 {
+    font-size: 21px;
+}
+.toprated_section .col-md-6 p {
+    font-size: 15px;
+}
+.two-button a {
+    width: 100%;
+    float: left;
+    margin: 0 0 26px 0;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+html.about_page .mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 84px;
+}
+}
+
+@media screen and (max-width: 380px) {
+html.about_page .mob_img img {
+    margin-top: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
