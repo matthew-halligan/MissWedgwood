@@ -913,8 +913,29 @@ html.contact_page .mob_img img {
 .contact_section_bottom h2 {
     font-size: 24px;
 }
-
-
+html.gallery_page .scrollig_header_section {
+    padding-top: 40px;
+    padding-bottom: 464px;
+    background: url(../images/wedgwood-lady-intro-5.png)!important;
+    background-size: cover!important;
+    background-position: center!important;
+}
+html.gallery_page .scrollig_header_section .mob_img img {
+    float: left;
+    width: 100%;
+    margin-top: 287px;
+}
+html.gallery_page .scrollig_header_section .nav-bar .col-md-2 {
+    width: 100%;
+    margin: 0 0 19px 0;
+}
+html.gallery_page  .col-md-12.lack .col-md-3 h2 {
+    float: left;
+    width: 100%;
+    margin: 27px 0;
+}
+html.gallery_page .scrollig_header_section .two-buttons .container	
+    width: 100%;		
 }
 
 
@@ -1004,18 +1025,3 @@ html.about_page .mob_img img {
     margin-top: 0px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
