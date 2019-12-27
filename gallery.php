@@ -435,16 +435,17 @@
 <div class="container">
      <h2 class=web>Miscellaneous Wedgwood</h2>
     <?php
-    $titles = ["", "", "", "", "", "", "", ""];
-    $images = [];
-    $links =["",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""];
+    $titles = ["Nautilus Shell Compote", "Charles & Diana Goblet", "Pearlware Candle Snuffers", "1914 Calander Tile",
+               "Gold Lettering Sign", "6\" Blue & White Tile", "Buten Museum Post Cards", "Dry Body Water Bottle"];
+    $images = ["misc-1.jpg", "misc-2.jpg", "misc-3.jpg", "misc-4.jpg", "misc-5.jpg", "misc-6.jpg", "misc-7.jpg", "misc-8.jpg", ];
+    $links =["https://www.ebay.com/itm/Wedgwood-WHITE-jasperware-nautilus-shell-footed-compote/163914365605?hash=item262a0ebaa5:g:A6wAAOSw4bBZikoN",
+        "https://www.ebay.com/itm/Wedgwood-purple-glass-goblet-Charles-and-Diana/401897033235?hash=item5d92ee0e13:g:zdkAAOSwF9pdgk6n",
+        "https://www.ebay.com/itm/Wedgwood-pearlware-pair-of-candle-snuffers-and-holders-turquoise-trim-AS-IS/401748054595?hash=item5d8a0cd243:g:XoYAAOSwD5BZa-Q3",
+        "https://www.ebay.com/itm/Wedgwood-calendar-tile-1914-brown-transferware-Commonwealth-Docks/163926019309?hash=item262ac08ced:g:k1sAAOSwovFdrcgF",
+        "https://www.ebay.com/itm/Wedgwood-shelf-sign-with-gold-lettering-5-creamware/163737539826?hash=item261f8494f2:g:s0UAAOSwweRc-GYo",
+        "https://www.ebay.com/itm/Wedgwood-dark-blue-and-white-6-square-tile/163624310641?hash=item2618c4d771:g:4LcAAOSw2n5ZhPtj",
+        "https://www.ebay.com/itm/Wedgwood-Buten-Museum-folder-of-16-post-cards-complete-set/163616848077?hash=item261852f8cd:g:lA0AAOSwkRpZoETM",
+        "https://www.ebay.com/itm/Wedgwood-WHITE-jasperware-or-dry-body-water-bottle-with-stopper-and-underplate/401748054594?hash=item5d8a0cd242:g:oCYAAOSwbsRbcYwj"];
 
 
     for ($counter = 0; $counter < sizeof($titles); $counter++){
