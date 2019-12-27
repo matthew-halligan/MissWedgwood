@@ -1,28 +1,33 @@
 <?php
 if(isset($_POST["submit"])){
-// Checking For Blank Fields..
-if($_POST["name"]==""||$_POST["email"]==""||$_POST["phone"]==""||$_POST["custom_type"]==""){
-echo "Fill All Fields..";
+    // Checking For Blank Fields..
+    if($_POST["name"]==""||$_POST["email"]==""||$_POST["phone"]==""||$_POST["custom_type"]==""){
+    echo "Fill All Fields..";
 }else{
-// Check if the "Sender's Email" input field is filled out
-$email=$_POST['email'];
-// Sanitize E-mail Address
-//$email =filter_var($email, FILTER_SANITIZE_EMAIL);
-// Validate E-mail Address
-//$email= filter_var($email, FILTER_VALIDATE_EMAIL);
-if (!$email){
-echo "Invalid Sender's Email";
+    // Check if the "Sender's Email" input field is filled out
+    $email=$_POST['email'];
+    // Sanitize E-mail Address
+    //$email =filter_var($email, FILTER_SANITIZE_EMAIL);
+    // Validate E-mail Address
+    //$email= filter_var($email, FILTER_VALIDATE_EMAIL);
+    if (!$email){
+    echo "Invalid Sender's Email";
 }
 else{
-$subject = "email";
-$message = $_POST['custom_type'];
-$headers = 'From:'. $email . "rn"; // Sender's Email
-$headers .= 'Cc:'. $email . "rn"; // Carbon copy to Sender
-// Message lines should not exceed 70 characters (PHP rule), so wrap it
-$message = wordwrap($message, 70);
-// Send Mail By PHP Mail Function
-mail("recievers_mail_id@rk5737388", $subject, $message, $headers);
-echo "Your mail has been sent successfuly ! Thank you for your feedback";
+    $headers = 'From: '. $email . "\n"; // Sender's Email
+    $headers .= 'Cc: '. $email . "\n"; // Carbon copy to Sender
+    $subject = "New Website Contact";
+    $message = "Name: " . $_POST["name"] . "\n"
+              ."Email: " . $_POST["email"] . "\n"
+              ."Phone: " . $_POST["phone"] . "\n"
+              ."Comments: " . $_POST['custom_type'];
+
+
+    // Message lines should not exceed 70 characters (PHP rule), so wrap it
+    $message = wordwrap($message, 70);
+    // Send Mail By PHP Mail Function
+    mail("matt@halliganwebdevelopment.com", $subject, $message, $headers);
+    echo "Your mail has been sent successfuly ! Thank you for your feedback";
 }
 }
 }
