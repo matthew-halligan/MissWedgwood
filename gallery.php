@@ -211,17 +211,13 @@
 <div class="container">
     <h2 class=web>Wedgwood Sugar Boxes</h2>
     <?php
-    $titles = ["", "", "", "", "", "", "", ""];
-    $images = ["sugar-box-1.jpg","sugar-box-2.jpg","sugar-box-3.jpg","sugar-box-4.jpg","sugar-box-5.jpg","sugar-box-6.jpg",
-        "sugar-box-7.jpg","sugar-box-8.jpg",];
-    $links =["",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""];
+    $titles = ["Mount Vernon", "Boston Bute", "Moselle Globe", "Yellow and Silver Globe"];
+    $images = ["sugar-box-1.jpg", "sugar-box-2.jpg", "sugar-box-3.jpg", "sugar-box-4.jpg",];
+    $links =["https://www.ebay.com/itm/Wedgwood-WHITE-jasperware-or-dry-body-water-bottle-with-stopper-and-underplate/401748054594?hash=item5d8a0cd242:g:oCYAAOSwbsRbcYwj",
+        "https://www.ebay.com/itm/Wedgwood-Boston-creamware-bute-shape-sugar-box-ca-1920s/401739727939?hash=item5d898dc443:g:~kwAAOSwH4NZhRUs:sc:USPSPriority!06492!US!-1",
+        "https://www.ebay.com/itm/Wedgwood-Grey-Moselle-bone-china-globe-shape-sugar-box-and-lid-R4283/401738815768?hash=item5d897fd918:g:EScAAOSwqOtZgwgA:sc:USPSPriority!06492!US!-1",
+        "https://www.ebay.com/itm/Wedgwood-bone-china-globe-shape-sugar-yellow-and-silver-S361/163625873711?hash=item2618dcb12f:g:T44AAOSwsPlZ1kMd"
+    ];
 
 
     for ($counter = 0; $counter < sizeof($titles); $counter++){
@@ -331,7 +327,7 @@
 <div class="container">
     <h2 class=web>Wedgwood Cups & Saucers</h2>
     <?php
-    $titles = ["China Bullion", "Ulander Bone", "Windsor Grey", "Yale University Pair", "Mount Vernon", "Landscape Flow", "Columbia Enamel", "Pink Pear Bone"];
+    $titles = ["Hand Painted Floral", "Dark Green Bone", "Windsor Grey", "Yale University Pair", "Mount Vernon", "Landscape Flow", "Columbia Enamel", "Pink Pear Bone"];
     $images = ["cups-and-saucers-1.jpg", "cups-and-saucers-2.jpg", "cups-and-saucers-3.jpg", "cups-and-saucers-4.jpg", "cups-and-saucers-5.jpg",
         "cups-and-saucers-6.jpg", "cups-and-saucers-7.jpg", "cups-and-saucers-8.jpg", ];
     $links =["https://www.ebay.com/itm/Wedgwood-bone-china-bouillon-hand-painted-FIVE-pieces-cups-and-saucers-X4728/401911867581?hash=item5d93d068bd:g:wccAAOSwA29b5GJS",
@@ -435,7 +431,7 @@
 <div class="container">
      <h2 class=web>Miscellaneous Wedgwood</h2>
     <?php
-    $titles = ["Nautilus Shell Compote", "Charles & Diana Goblet", "Pearlware Candle Snuffers", "1914 Calander Tile",
+    $titles = ["Nautilus Shell Compote", "Charles & Diana Goblet", "Candle Snuffers", "1914 Calander Tile",
                "Gold Lettering Sign", "6\" Blue & White Tile", "Buten Museum Post Cards", "Dry Body Water Bottle"];
     $images = ["misc-1.jpg", "misc-2.jpg", "misc-3.jpg", "misc-4.jpg", "misc-5.jpg", "misc-6.jpg", "misc-7.jpg", "misc-8.jpg", ];
     $links =["https://www.ebay.com/itm/Wedgwood-WHITE-jasperware-nautilus-shell-footed-compote/163914365605?hash=item262a0ebaa5:g:A6wAAOSw4bBZikoN",

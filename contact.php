@@ -7,21 +7,20 @@ if(isset($_POST["submit"])){
     // Check if the "Sender's Email" input field is filled out
     $email=$_POST['email'];
     // Sanitize E-mail Address
-    //$email =filter_var($email, FILTER_SANITIZE_EMAIL);
+    $email =filter_var($email, FILTER_SANITIZE_EMAIL);
     // Validate E-mail Address
-    //$email= filter_var($email, FILTER_VALIDATE_EMAIL);
+    $email= filter_var($email, FILTER_VALIDATE_EMAIL);
     if (!$email){
     echo "Invalid Sender's Email";
 }
 else{
-    $headers = 'From: '. $email . "\n"; // Sender's Email
-    $headers .= 'Cc: '. $email . "\n"; // Carbon copy to Sender
     $subject = "New Website Contact";
     $message = "Name: " . $_POST["name"] . "\n"
               ."Email: " . $_POST["email"] . "\n"
               ."Phone: " . $_POST["phone"] . "\n"
               ."Comments: " . $_POST['custom_type'];
-
+    $headers = 'From: '. $email . "\n"; // Sender's Email
+    $headers .= 'Cc: '. $email . "\n"; // Carbon copy to Sender
 
     // Message lines should not exceed 70 characters (PHP rule), so wrap it
     $message = wordwrap($message, 70);
@@ -77,7 +76,7 @@ else{
     	<div class="col-md-2 md"> </div>
 		<div class="col-md-2 md"></div>
 	<div class="col-md-2">
-         <a href="gallery.html">Gallery</a>
+         <a href="gallery.php">Gallery</a>
     </div>
 
 	 <div class="col-md-2">
@@ -142,7 +141,7 @@ else{
 <p>Shop now by clicking the "Shop My Ebay Store" Button in the section above to browse our wide selection of inventory!</p>	`
 </div>
 <div class="col-md-4 img">
-<img src="images/cat-1.png">
+<img src="images/127.jpg">
 </div>
 <div class="col-md-4 las">
 <h2>CONTACT </h2>
