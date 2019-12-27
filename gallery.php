@@ -44,7 +44,7 @@
            <a href="https://www.ebay.com/str/wedgwoodland">Shop Now</a>
     </div>
      <div class="col-md-2">
-           <a href="contact.html">Contact</a>
+           <a href="contact.php">Contact</a>
     </div>
   </div>
 </div>
