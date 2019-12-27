@@ -404,16 +404,12 @@
 <div class="container">
     <h2 class=web>Wedgwood Vases</h2>
     <?php
-    $titles = ["", "", "", "", "", "", "", ""];
-    $images = [];
-    $links =["",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""];
+    $titles = ["Four Seasons", "6\" Sage Jasper", "4\" Primrose Jasperware", "Mirabelle Bone"];
+    $images = ["vase-1.jpg", "vase-2.jpg", "vase-3.jpg", "vase-4.jpg", ];
+    $links =["https://www.ebay.com/itm/Wedgwood-cobalt-blue-jasper-dipped-Four-Seasons-arcadian-bud-vase/163727432206?hash=item261eea5a0e:g:EyoAAOSws4xc7~uu",
+        "https://www.ebay.com/itm/Wedgwood-sage-green-jasper-dipped-6-flower-vase-MIE/163928829362?hash=item262aeb6db2:g:A~cAAOSwsqxcN2fX",
+        "https://www.ebay.com/itm/Wedgwood-primrose-jasperware-4-footed-vase-ca-1977/402011857680?hash=item5d99c62310:g:kJAAAOSwTYZdnfzP",
+        "https://www.ebay.com/itm/Wedgwood-Mirabelle-bone-china-4-footed-vase-R4537/163643415829?hash=item2619e85d15:g:1N4AAOSw0Hlbv2bd"];
 
 
     for ($counter = 0; $counter < sizeof($titles); $counter++){
